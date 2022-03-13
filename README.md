@@ -9,3 +9,16 @@
 **Copyright © 2021 Captain Pangyo**
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported License</a>.
+
+- Vue.js 공식 문서
+https://vuejs.org/v2/guide/
+- Vue.js 스타일 가이드
+https://vuejs.org/v2/style-guide/
+- Vue.js Cookbook (실무에 실용적인 문서들)
+https://vuejs.org/v2/cookbook/
+- Vuex 공식 문서
+https://v3.vuex.vuejs.org/
+- VueRouter 공식 문서
+https://v3.router.vuejs.org/
+- Vue CLI 공식 문서
+https://cli.vuejs.org/
