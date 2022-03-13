@@ -9,17 +9,29 @@
 <body>
     <div id="app">
         <app-header></app-header>
-
+        <app-content></app-content>
+        <app-footer></app-footer>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
-
+        // 전역 컴포넌트 (플러그인이나 라이브러리 사용할 때 사용.)
         Vue.component('app-header', {
             template: '<h1>header</h1>'
         });
+        Vue.component('app-content', {
+            template: '<h2>content</h2>'
+        });
+
+        // 서비스 구현할 때 가장 많이 사용하는 지역 컴포넌트
         new Vue({
-            el: '#app'
+            el: '#app',
+            components: {
+                // '키': '값' 형태로 정의 (지역 컴포넌트 등록방식)
+                'app-footer': {
+                    template: '<footer>footer</footer>'
+                }
+            }
         });
 
     </script>
